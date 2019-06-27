@@ -1,0 +1,3 @@
+create table if not exists cliente(idCliente int primary key auto_increment, cliNome varchar(45),
+cliTipo varchar(45), cliCpf varchar(16), cliRg varchar(12), cliDatNasc date, cliEnd varchar(45), cliCep varchar(12),
+cliTel varchar(15), email varchar(120));
