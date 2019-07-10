@@ -1,0 +1,1 @@
+create table if not exists filme (filCod int primary key auto_increment, filNome varchar(45), filGen varchar(45));
