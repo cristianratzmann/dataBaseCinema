@@ -1,1 +1,2 @@
 
+create table if not exists poltrona(polCod int primary key auto_increment, polNome varchar(5));
