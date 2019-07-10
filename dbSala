@@ -1,0 +1,1 @@
+create table if not exists sala (salaCod int primary key auto_increment, salaNome varchar(45));
