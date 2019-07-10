@@ -1,0 +1,4 @@
+create table if not exists ingresso(IngCliCod int, IngSesCod int,
+constraint primary key(IngCliCod, IngSesCod),
+CONSTRAINT fk_CliCod FOREIGN KEY (IngCliCod) REFERENCES cliente (idCliente),
+CONSTRAINT fk_SesCod FOREIGN KEY (IngSesCod) REFERENCES sessao (SesCod));
