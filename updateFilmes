@@ -1,0 +1,3 @@
+Update filme
+Set filNom = 'A volta de Rick'
+Where filCod = 1;
