@@ -1,0 +1,3 @@
+UPDATE cliente
+SET cliNome = 'Cristian Ratzmann'
+WHERE idCliente = 1;
